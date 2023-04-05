@@ -11,6 +11,7 @@ public class GreetingController {
 
 
 
+
     @CrossOrigin(origins = "*")
     @GetMapping(value = "greeting")
     public ResponseEntity<String> getComments(){
